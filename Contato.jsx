@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import useReveal from '../hooks/useReveal'
-import { https://wa.me5511940317912 } from '../constants'
+import { WHATSAPP_5511940317912 } from '../constants'
 import { PinIcon, PhoneIcon, ClockIcon, WhatsAppIcon } from './Icons'
 
 export default function Contato() {
@@ -14,7 +14,7 @@ export default function Contato() {
   function handleSubmit(e) {
     e.preventDefault()
     const texto = `Olá! Meu nome é ${form.nome}, da empresa ${form.empresa}.\nTelefone: ${form.telefone}\nE-mail: ${form.email}\nMensagem: ${form.mensagem}`
-    window.open(https://wa.me5511940317912(texto), '_blank', 'noopener,noreferrer')
+    window.open(WHATSAPP_5511940317912(texto), '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -96,7 +96,7 @@ export default function Contato() {
               <input
                 id="email" name="email" type="email" required value={form.email} onChange={handleChange}
                 className="mt-1.5 w-full rounded-xl border border-mist2 px-4 py-3 focus:border-purple-500 outline-none"
-                placeholder="voce@empresa.com"
+                placeholder="rh@vivoempresa.com.br"
               />
             </div>
           </div>
