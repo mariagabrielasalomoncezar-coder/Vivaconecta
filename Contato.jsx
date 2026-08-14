@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import useReveal from '../hooks/useReveal'
-import { WHATSAPP_LINK } from '../constants'
+import { https://wa.me5511940317912 } from '../constants'
 import { PinIcon, PhoneIcon, ClockIcon, WhatsAppIcon } from './Icons'
 
 export default function Contato() {
@@ -14,7 +14,7 @@ export default function Contato() {
   function handleSubmit(e) {
     e.preventDefault()
     const texto = `Olá! Meu nome é ${form.nome}, da empresa ${form.empresa}.\nTelefone: ${form.telefone}\nE-mail: ${form.email}\nMensagem: ${form.mensagem}`
-    window.open(WHATSAPP_LINK(texto), '_blank', 'noopener,noreferrer')
+    window.open(https://wa.me5511940317912(texto), '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -46,7 +46,7 @@ export default function Contato() {
           </ul>
 
           <a
-            href={WHATSAPP_LINK()}
+            href={(https://wa.me5511940317912)}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-purple-600 hover:bg-purple-700 transition-colors text-white font-semibold px-6 py-3.5"
