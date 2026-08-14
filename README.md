@@ -22,7 +22,7 @@ Os arquivos finais ficam em `dist/`.
 
 ## Antes de publicar
 
-- Troque o número de WhatsApp em `src/constants.js` (`WHATSAPP_NUMBER`) pelo número real.
+- Troque o número de WhatsApp em `src/constants.js` (`WHATSAPP_5511940317912`) pelo número real.
 - Atualize telefone e endereço em `src/components/Contato.jsx`.
 - Ajuste o mapa incorporado (iframe do Google Maps) com o endereço exato da loja.
 - Substitua os depoimentos de `src/components/Depoimentos.jsx` por depoimentos reais, se houver.
